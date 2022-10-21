@@ -16,6 +16,13 @@
     padding: 3em;
 }
 
+.ss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
 #title {
     font-family: 'Libre Baskerville', serif;
     font-style: italic;

@@ -1,0 +1,103 @@
+.navbar {
+    background-color: #29362c !important;
+    filter: drop-shadow(0px 3px 3px #151c17);
+}
+
+#accent-text {
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    color: white;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+}
+
+#title {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    color: #29362c;
+    font-size: 80px;
+    text-align: center;
+}
+
+#title-descrip {
+    font-family: 'Roboto', sans-serif;
+    color: #29362c;
+    font-size: x-large;
+    text-align: center;
+}
+
+.dark-sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #29362c;
+    padding: 2em;
+}
+
+.subcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#dark-header {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+#dark-subheader {
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    color: white;
+    text-align: left;
+}
+
+#dark-body-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: white;
+    text-align: left;
+}
+
+#link {
+    color: #bfdec0;
+}
+
+.light-sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+#light-header {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    color: #29362c;
+    text-align: center;
+}
+
+#light-subheader {
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    color: #29362c;
+    text-align: left;
+}
+
+#light-body-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #29362c;
+    text-align: left;
+}
+
+#light-link {
+    color: #8c2a23;
+}

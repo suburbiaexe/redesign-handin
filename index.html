@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Redesign</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" id="accent-text" aria-current="page" href="#">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="accent-text" href="#Usability">usability problems</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="accent-text" href="#Lofi">lo-fi prototype</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="accent-text" href="#Hifi">hi-fi prototype</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="accent-text" href="#Site">redesign</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="home">
+    <h1 id="title">responsive redesign</h1>
+    <p id="title-descrip">the aim of this project is to practice the workflow of redesigning a simple website with improved design and accessibility choices.</p>
+    </div>
+
+    <div class="dark-sect" id="Usability">
+        <h1 id="dark-header">usability problems</h1>
+        <div class="subcontent">
+            <h3 id="dark-subheader"><u>my chosen site</u></h3>
+            <p id="dark-body-text">for this project, I chose to redesign the <a id="link" href="https://hawesfinefoods.com/">Hawes Fine Foods</a> site, as it had a clean, simple aesthetic that I appreciated (but also room for improvement).</p>
+            <h3 id="dark-subheader"><u>problems</u></h3>
+            <ul>
+                <li id="dark-body-text">usability</li>
+                    <ul>
+                        <li id="dark-body-text">vertical scroll but no way to jump between sections.</li>
+                        <li id="dark-body-text">main functionality is to view store inventory but there's no emphasis on the inventory section</li>
+                    </ul>
+                <li id="dark-body-text">memorability</li>
+                    <ul>
+                        <li id="dark-body-text">technically fine, but a bit boring to look at</li>
+                    </ul>
+                <li id="dark-body-text">general</li>
+                    <ul>
+                        <li id="dark-body-text">a lot of awkward negative space</li>
+                        <li id="dark-body-text">disjointed headers between 'about' and 'gift card' sections</li>
+                    </ul>
+            </ul>
+            <h3 id="dark-subheader"><u>accessibility</u></h3>
+            <p id="dark-body-text">the site actually scored a lot of accessibility points with WAVE, particularly with its strong contrast (which is to be expected with a black and white color scheme). however, a couple things were marked down:</p>
+            <ul>
+                <li id="dark-body-text">most images were missing alt-tags</li>
+                <li id="dark-body-text">some header sizes were skipped, which WAVE noted could be confusing</li>
+                    <ul>
+                        <li id="dark-body-text">(I don't know that I really agree with this, but it wasn't like I couldn't easily fix that)</li>
+                    </ul>
+            </ul>
+            <p id="dark-body-text">one thing WAVE didn't mark that I noticed was font size. a lot of the site's text is quite small and I didn't like that I had to squint/zoom in on the site to read its content.</p>
+        </div>
+    </div>
+
+    <div class="light-sect" id="Lofi">
+        <h1 id="light-header">lo-fi prototype</h1>
+        <div class="subcontent">
+            <h3 id="light-subheader"><u>process</u></h3>
+            <p id="light-body-text">I made lo-fi prototypes for <b>3 separate displays</b>: desktop, tablet, and mobile. I used Balsamiq to create the general layout ideas I had to address some of the issues brought up earlier.</p>
+        </div>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 id="light-header" class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Desktop Display
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <img src="imgs/Desktop.png" class="img-fluid" alt="Lo-fi desktop prototype">
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 id="light-header" class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Tablet Display
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <img src="imgs/Tablet.png" class="img-fluid" alt="Lo-fi tablet prototype">
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 id="light-header" class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Mobile Display
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <img src="imgs/Mobile.png" class="img-fluid" alt="Lo-fi mobile prototype">
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dark-sect" id="Hifi">
+        <h1 id="dark-header">hi-fi prototype</h1>
+        <div class="subcontent">
+            <h3 id="dark-subheader"><u>process</u></h3>
+            <p id="dark-body-text">I used Figma to create a <b>design guide</b> as well as hi-fi prototypes for the 3 aforementioned displays: desktop, tablet, and mobile.
+            <br><br>
+            you can find the design guide and each prototype at <a id="link" href="https://www.figma.com/file/D2EI53iFAwVYAqCHZ21a14/1300---Responsive-Redesign?node-id=0%3A1">this link</a>. if you run the prototype, you may notice the transitions between each frame are a little janky — <b>this is because i did not implement scrolling in the prototype</b>. the actual website scrolls like normal!</p>
+        </div>
+    </div>
+
+    <div class="light-sect" id="Site">
+        <h1 id="light-header">redesign</h1>
+        <div class="subcontent">
+            <h3 id="light-subheader"><u>the site</u></h3>
+            <p>the final site i created ended up being a little different from my initial prototypes, but the main ideas are still there. the font sizes are a lot larger, the spacing looks better (in my opinion) with the high-contrast alternating backgrounds, all the images have alt-tags, and the minimalistic essence of the site is still present.
+            <br><br>
+            you can find my final redesign <a id="light-link" href="https://banalbat666.github.io/responsive-redesign/">here</a>.
+            </p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
